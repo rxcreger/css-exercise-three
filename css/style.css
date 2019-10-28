@@ -3,28 +3,45 @@
 }
 
 body {
-  background-color: #ededed;
+  background-color: #8FBC8F;
   font-family: sans-serif;
-  font-size: 20px;
   padding: 40px;
 }
 
-h1 {
-  font-size:24px;
-  font-weight: bold;
-  color:#000000;
+.container {
+  margin: 0 auto;
+  width: 475px;
 }
 
-.container {
-  margin: 10%;
-  width: 550px;
+nav {
+  background-color: #000000;
+  height: 90px;
+  width: 475px;
+  position: fixed;
+  top: 0;
+}
+
+.arrow-left {
+  position: relative;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.restaurant-list {
+  margin-top: 50px;
+  background-color: #ededed;
 }
 
 .content {
   display: block;
-  line-height: 150%;
-  padding: 20px;
+  line-height: 160%;
+  padding: 25px;
   width: 85%;
+}
+
+.content h1 {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .location:hover {
@@ -32,32 +49,11 @@ h1 {
 }
 
 .location {
-  border-top: 2px solid #000000;
-}
-
-.h3 {
-  display: inline;
+  border-top: 1px solid #000000;
 }
 
 .arrow {
   float: right;
   padding: 20px;
   width: 15%;
-}
-
-.left-arrow {
-  float: left;
-  padding: 40px;
-}
-
-nav {
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #000000;
-  height: 80px;
-  width: 100%;
-}
-
-.restaurant-list {
-  display: inline;
 }
